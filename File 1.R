@@ -2,3 +2,10 @@ mtcars
 women
 ?women
 dataset
+?women
+?women
+str(mtcars)
+head(mtcars)
+hist(mtcars$mpg)
+mean(mtcars$mpg)
+#vectors,matrices,list,factors,data.frame
