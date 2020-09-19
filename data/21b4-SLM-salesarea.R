@@ -51,8 +51,11 @@ range(df$X)
 fit1 = lm(Y ~ X, data=df) # create Simple Linear Model Y wrt X
 fit1
 summary(fit1)
-
-
+range(df$X)
+newdata=data.frame(X=c(2,3))
+predict(fit1,newdata=newdata)
+# 90% of sales is dependent on area
+# if u increase the area by 1 it will imcrease sales by 1.69
 #few extras
 names(fit1) # attributes(fit1)
 system.time(lm(Y ~ X, data=df)) #time taken to compute linear regression
