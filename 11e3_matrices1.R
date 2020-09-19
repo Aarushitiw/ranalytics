@@ -92,6 +92,7 @@ apply(a1, MARGIN=3, FUN=sum)  #matrix : coy sales
 
 apply(a1, MARGIN=c(2,3), FUN=sum)  #cols : product  & coy sales
 apply(a1, MARGIN=c(1,3), FUN=mean)
+version
 
 #matrix & array - > 2 dim
 # same datatype
